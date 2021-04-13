@@ -27,9 +27,9 @@ export VENDOR=zuk
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-PIXYS_ROOT="${MY_DIR}/../../.."
+AOSP_ROOT="${MY_DIR}/../../.."
 
-HELPER="${PIXYS_ROOT}/vendor/pixys/build/tools/extract_utils.sh"
+HELPER="${AOSP_ROOT}/tools/extract_utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1

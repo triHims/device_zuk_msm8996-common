@@ -1,5 +1,11 @@
 key 158   BACK           VIRTUAL
+<<<<<<< HEAD
 key 249   MENU	
 key 254   APP_SWITCH     VIRTUAL
 key 183   HOME
+=======
+key 249   HOME
+key 254   APP_SWITCH
+key 183   ASSIST         VIRTUAL
+>>>>>>> 647c3fb (Oh My GAh! lineage modified for eleven)
 
