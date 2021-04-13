@@ -122,6 +122,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
     ro.opengles.version=196610 \
+    ro.sf.lcd_density=480 \
     vendor.display.disable_rotator_downscale=1 \
     vendor.display.disable_skip_validate=1
 
